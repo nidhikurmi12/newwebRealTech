@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.react-slideshow-container .default-nav {
+  background-color: transparent !important;
+}
+.swiper-button-prev:after,
+.swiper-button-next:after {
+  font-size: 15px !important;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  background-color: white;
+}
+.swiper-button-next {
+  margin-right: -1rem;
+}
+.swiper-button-prev {
+  margin-left: -0.9rem;
+}
+.swiper-wrapper {
+  justify-content: space-between;
+}
+
+.rti--container {
+  max-width: 80%;
+}
+/* .css-19bb58m {
+  margin: 0 !important;
+  padding: 0 4px !important;
+} */
+.css-id3z0s-control,
+.css-12k7s5o-control,
+.select__value-container {
+  min-height: 35px !important;
+}
+
+/* .css-1p3m7a8-multiValue {
+  font-size: 15px !important;
+  margin: 0 2px !important;
+} */
+/* .css-9jq23d {
+  padding: 1px 5px !important;
+} */
+/* .css-1wy0on6 {
+  height: 27px !important;
+} */
+/* .css-1dyz3mf {
+  margin-top: -1px;
+  margin-bottom: -1px;
+  margin-left: 10px;
+} */
+
+@media (width<=500px) {
+  .rti--container {
+    max-width: 100%;
+  }
+}
